@@ -41,9 +41,9 @@ module.exports = (sequlize, DataTypes) => {
         user.password = hashedPassword;
     }));
 
-    // Users.associate = (models) => {
-    //     models.Users.hasMany(models.Rackets);
-    // };
+    Users.associate = (models) => {
+        models.Users.hasMany(models.Rackets);
+    };
 
     return Users;
 }
