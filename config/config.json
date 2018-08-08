@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "SolowSportsUser",
+    "password": "TennisPlayer",
+    "database": "RacketDemos",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "SolowSportsUser",
+    "password": "TennisPlayer",
+    "database": "RacketDemos",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "SolowSportsUser",
+    "password": "TennisPlayer",
+    "database": "RacketDemos",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+}

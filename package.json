@@ -1,0 +1,25 @@
+{
+  "name": "SolowSportsDemoProgram",
+  "version": "1.0.0",
+  "description": "Starter code for an Solow Sports Demo Program.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -L app.js",
+    "test": "jest"
+  },
+  "author": "Lin Ochoa",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.12.1",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.13.3"
+  }
+}
