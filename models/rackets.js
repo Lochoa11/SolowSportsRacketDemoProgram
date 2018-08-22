@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
     });
 
     Rackets.associate = (models) => {
-        models.Rackets.belongsTo(models.Users);
+        models.Rackets.belongsTo(models.Company);
     }
     return Rackets;
 };
