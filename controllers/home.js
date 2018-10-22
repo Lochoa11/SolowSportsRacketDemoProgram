@@ -1,8 +1,6 @@
 const express = require('express');
 const models = require('../models');
-
-const router = express.Router();
-
+const router = require('express').Router();
 
 // router.get('/', (req, res) => {
 //   res.json({
@@ -32,6 +30,10 @@ router.delete('/:id', (req, res) => {
     msg: "Successful DELETE to '/' route",
     id: req.params.id
   });
+});
+
+router.get('/new_company', (req, res) => {
+  res.render('new_company/');
 });
 
 

@@ -1,0 +1,21 @@
+<div align="center">  
+  <h2>New Company</h2>
+    <br>
+    <form method="post" action="/new_company" encType="multipart/form-data">
+      <div>
+        <label for="file">Please select a logo image</label>
+        <input name="file" type="file" accept="image/*"/>        
+      </div>
+      <br/>
+      <div>
+        <label for="title">Company name: </label>
+      </div>
+      <div>
+        <input type="text" name="title">
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit">Create new company</button>
+    </form> 
+    <br>  
+    <button class="btn btn-primary" onclick = "location.href = 'http://localhost:8000/';">Cancel</button>
+</div>
